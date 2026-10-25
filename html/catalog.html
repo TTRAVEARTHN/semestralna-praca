@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PC Store | Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-icon">▣</span> PC Store</a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="catalog.html">Catalog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <nav class="user-nav" aria-label="Store actions">
+        <a href="#compare">Compare</a>
+        <a href="#account">Account</a>
+        <a href="#cart">Cart <span class="cart-count">1</span></a>
+    </nav>
+</header>
+
+
+<main class="container catalog-page">
+    <div class="page-heading">
+        <div><p class="eyebrow">FIND YOUR NEXT PC</p><h1>Product Catalog</h1><p class="muted">Browse our selection of high-performance PCs and peripherals.</p></div>
+        <label class="search-label">Search products <input type="search" placeholder="Search PCs and components"></label>
+    </div>
+
+    <section class="filter-panel" aria-label="Catalog filters">
+        <h2>Categories</h2>
+        <div class="filter-buttons">
+            <button class="filter-button selected" type="button">All Products</button>
+            <button class="filter-button" type="button">Gaming PCs</button>
+            <button class="filter-button" type="button">Workstations</button>
+            <button class="filter-button" type="button">Components</button>
+            <button class="filter-button" type="button">Accessories</button>
+        </div>
+        <div class="catalog-toolbar">
+            <label>Sort by
+                <select>
+                    <option>Default</option>
+                    <option>Price: low to high</option>
+                    <option>Price: high to low</option>
+                    <option>Newest</option>
+                </select>
+            </label>
+            <span class="muted">4 products</span>
+        </div>
+    </section>
+
+
+    <section class="product-grid" aria-label="Products">
+        <article class="product-card">
+            <div class="product-image image-purple"><span>PC IMAGE</span></div>
+            <div class="product-info"><p class="product-category">GAMING PC</p><h2>Ultimate Gaming Beast</h2><p class="specs">Intel i9-14900K · RTX 4090 · 32 GB RAM</p><div class="product-bottom"><strong>$3,499</strong><button class="button primary" type="button">Add to Cart</button></div></div>
+        </article>
+        <article class="product-card">
+            <div class="product-image image-blue"><span>PC IMAGE</span></div>
+            <div class="product-info"><p class="product-category">GAMING PC</p><h2>Pro Gamer X</h2><p class="specs">Intel i7 · RTX 4070 · 32 GB RAM</p><div class="product-bottom"><strong>$1,899</strong><button class="button primary" type="button">Add to Cart</button></div></div>
+        </article>
+        <article class="product-card">
+            <div class="product-image image-green"><span>PC IMAGE</span></div>
+            <div class="product-info"><p class="product-category">WORKSTATION</p><h2>Creator Studio</h2><p class="specs">AMD Ryzen 9 · RTX 4080 · 64 GB RAM</p><div class="product-bottom"><strong>$2,799</strong><button class="button primary" type="button">Add to Cart</button></div></div>
+        </article>
+        <article class="product-card">
+            <div class="product-image image-orange"><span>COMPONENT IMAGE</span></div>
+            <div class="product-info"><p class="product-category">COMPONENT</p><h2>Performance Graphics Card</h2><p class="specs">High-performance graphics for gaming and creative work.</p><div class="product-bottom"><strong>$899</strong><button class="button primary" type="button">Add to Cart</button></div></div>
+        </article>
+    </section>
+
+    <div class="pagination"><span>Showing 1–4 of 4 results</span><button class="button secondary" type="button">Load more</button></div>
+</main>
+
+
+
+<footer class="site-footer" id="contact">
+    <div><a class="brand" href="index.html"><span class="brand-icon">▣</span> PC Store</a><p>Your trusted destination for high-performance gaming and work computers.</p></div>
+    <div><h2>Contact Us</h2><p>Žilina, Slovakia</p><p>*</p><p>*</p></div>
+    <div><h2>Find Us</h2><p>Visit our showroom to see our products in person.</p><a class="button secondary" href="#contact">Open in Google Maps</a></div>
+</footer>
+</body>
+</html>
